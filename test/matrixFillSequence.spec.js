@@ -10,7 +10,7 @@ describe('matrixFillSequence', function () {
   it('fill the matrix with numbers', function () {
     var matrix = createMatrix(3, 6);
     var result = matrixFillSequence(matrix);
-    expect(result[0]).to.be.a(Number);
+    expect(result[0][0]).to.be.a('number');
     expect(result[0][1]).to.be.a('number');
   });
 });

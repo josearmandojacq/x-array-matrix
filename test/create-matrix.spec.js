@@ -1,5 +1,5 @@
 var expect = require('expect.js');
-var createMatrix = require('./../src/create-matrix');
+var createMatrix = require('./../src/createMatrix');
 
 describe('createMatrix', function () {
   it('is a function', function () {

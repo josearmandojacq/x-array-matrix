@@ -10,4 +10,4 @@ module.exports = function matrixFillSequence(data) {
   }
 
   return temp;
-}
+};

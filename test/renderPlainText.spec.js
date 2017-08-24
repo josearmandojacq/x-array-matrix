@@ -1,4 +1,4 @@
-var expect = require('require.js');
+var expect = require('expect.js');
 var createMatrix = require('./../src/createMatrix.js');
 var renderPlainText = require('./../src/renderPlainText.js');
 
@@ -10,6 +10,7 @@ describe('renderPlainText', function () {
   it('render the matrix as a string', function () {
     var matrix = createMatrix(2, 4);
     var result = renderPlainText(matrix);
-    expect(result[0]).to.be.a(String);
+    console.log(typeof (result[0]));
+    expect(result[0]).to.be.a('string');
   });
 });
