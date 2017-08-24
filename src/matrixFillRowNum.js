@@ -1,6 +1,5 @@
 module.exports = function matrixFillRowNum(data) {
   var counter = 0;
-  console.log(data);
   var newArray = [];
 
   data.forEach(function (columns, i) {

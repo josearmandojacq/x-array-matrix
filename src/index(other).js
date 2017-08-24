@@ -16,6 +16,7 @@
 //   }
 // }
 var createMatrix = require('createMatrix');
+
 ///////////////////////////////////////////////////////////////
 // function renderPlainText(data) {
 
@@ -192,6 +193,3 @@ var text = 'abcdefghijkl';
 newMatrix = createMatrix(3, 5);
 newMatrix = matrixFillText(newMatrix, text);
 renderTableDom(document.querySelector('#bonus'), newMatrix);
-
-
-

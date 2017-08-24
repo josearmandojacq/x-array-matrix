@@ -10,4 +10,4 @@ module.exports = function matrixFillText(data, text) {
   }
 
   return array;
-}
+};
