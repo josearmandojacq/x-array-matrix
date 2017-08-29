@@ -4,7 +4,7 @@ var matrixIncrement = require('./../src/matrixIncrement');
 
 describe('matrixIncrement', function () {
   it('is a function', function () {
-    expect(matrixIncrement).to.be.a('function');
+    expect(matrixIncrement).to.be.an('function');
   });
 
   it('increments the values of the matrix', function () {
