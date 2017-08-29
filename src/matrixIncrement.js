@@ -11,4 +11,4 @@ module.exports = function matrixIncrement(data) {
   });
 
   return newArray;
-}
+};

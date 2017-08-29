@@ -14,4 +14,4 @@ module.exports = function createMatrix(rowsCount, columnsCount) {
     alert('No valids arguments');
     return;
   }
-}
+};

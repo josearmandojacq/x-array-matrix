@@ -7,6 +7,5 @@ module.exports = function renderPlainText(data) {
   });
 
   return rows.join('\n');
-  
 
 };

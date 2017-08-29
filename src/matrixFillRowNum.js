@@ -12,4 +12,4 @@ module.exports = function matrixFillRowNum(data) {
   });
 
   return newArray;
-}
+};
