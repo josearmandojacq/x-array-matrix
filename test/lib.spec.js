@@ -5,7 +5,7 @@ describe('array matrix library', function () {
     expect(library).to.be.an('object');
   });
 
-  it('has a createMAtrix function', function () {
-    expect(library.createMatrix).to.be.an('function');
+  it('has a createMatrix function', function () {
+    expect(library.createMatrix).to.be.a('function');
   });
 });
